@@ -1,7 +1,7 @@
 setwd("E:/Rstudy/Rcode") 
 getwd() #查看工作目录
 rm(list=ls()) #清楚缓存的数据
-data=read.csv('auto.csv')
+data=read.csv('auto.csv')  #数据要位于工作目录下
 income=read.csv("E:/Rstudy/income.csv")
 
 #作图
